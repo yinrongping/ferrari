@@ -14,8 +14,8 @@
 FerrariJobInfoMapper.xml,FerrariJobLogMapper.xml
 ```
 
-#### 2. 邮件报警设置
-邮件报警，默认使用DefaultAlarmServiceImpl，如果要个性化，请实现报警接口:
+#### 2. 报警设置
+默认使用邮件报警DefaultAlarmServiceImpl，如果要个性化，请实现报警接口:
 ```
 com.cip.ferrari.admin.alarm.AlarmService
 ```
