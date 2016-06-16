@@ -63,7 +63,7 @@ com.cip.ferrari.admin.common.JobGroupEnum
 </servlet-mapping>
 ```
 
-其中的 **url-pattern** 与ferrari-admin-web中的 **ferrari.properties** 中的receive_servletpath配置值一致。
+其中的 **url-pattern** 与ferrari-admin中的 **ferrari.properties** 中的receive_servletpath配置值一致。
 
 #### Step三. 任务类信息配置
 完成以上2步后，开始写你的任务类及方法，类名、方法、入参等信息在调度中心(ferrari-admin-web)的新增任务界面配置。
