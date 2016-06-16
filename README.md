@@ -6,7 +6,7 @@
 ## ======Quick Start======
 
 ### =======调度中心设置========
-调度中心的应用为ferrari-admin-web，修改如下设置后即可启动。
+调度中心的应用为ferrari-admin，修改如下设置后即可启动。
 #### 1. 创建数据表
 根据ferrari-parent中提供的tables_mysql_ferrari.sql创建数据表，
 建议对表FRI_QRTZ_TriggerLog、FRI_QRTZ_JobInfo做适当的索引，对应的sql语句可以查看
