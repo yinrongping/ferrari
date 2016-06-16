@@ -11,7 +11,6 @@
 
 	<bean id="ferrariBeanFactory" class="com.cip.ferrari.admin.common.FerrariBeanFactory"/>
 	
-    <bean id="alarmService" class="com.cip.ferrari.admin.alarm.dp.DpAlarmServiceImpl"/>
     <bean id="defaultAlarmService" class="com.cip.ferrari.admin.alarm.DefaultAlarmServiceImpl"/>
     
     <bean id="mailSender" class="com.cip.ferrari.admin.alarm.mail.MailSender"/>
